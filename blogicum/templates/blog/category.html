@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Публикации в категории {{ category }}{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+  <h1>Публикации в категории - {{ category }}</h1>
+  
+  {# Дополнительный вывод для теста #}
+  <div class="d-none test-slug">{{ category_slug }}</div>
+</div>
+{% endblock %}
